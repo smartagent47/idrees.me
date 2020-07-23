@@ -182,3 +182,13 @@ nav {
   color: #000;
   font-size: 1.5em;
 }
+
+.intern {
+  height: 444px;
+}
+
+.wrap-experience-content {
+  width: 80%;
+  position: relative;
+  right: 0;
+}
