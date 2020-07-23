@@ -15,10 +15,10 @@ body {
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: #000;
 }
 
-h6 {
+.custom-font {
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -30,7 +30,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   flex-direction: column;
-  color: #fff;
+  color: #000;
 }
 
 header {
@@ -40,6 +40,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+  color: #fff;
 }
 
 .cover-container {
