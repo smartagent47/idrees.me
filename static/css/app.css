@@ -33,6 +33,10 @@ body {
   color: #000;
 }
 
+.logo {
+  width: 80%;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
     url('../images/hero.jpg');
@@ -114,6 +118,19 @@ nav {
   text-transform: uppercase;
 }
 
+#nav-sticky-wrapper.is-sticky #nav {
+  background-color: #000;
+}
+
+#nav ul li a {
+  color: #ffff8d;
+}
+
+#nav ul li a:hover,
+#nav ul li.current a {
+  color: #fff !important;
+}
+
 /* A. Clearfix */
 
 .clearfix:after {
@@ -140,7 +157,8 @@ nav {
 /* End hide from IE5/Mac */
 
 #about-me,
-#experience {
+#experience,
+#work {
   background: #fff;
   padding-bottom: 5%;
   padding-top: 5%;
@@ -209,4 +227,32 @@ nav {
   border-radius: 50%;
   display: inline-block;
   margin-bottom: 2px;
+}
+
+.project-card {
+  height: 100%;
+  width: 93%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  opacity: 0;
+  background: none repeat scroll 0 0 rgba(255, 234, 0, 0.7);
+  transition: ease 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-transition: ease 0.3s;
+  -moz-transition: ease 0.3s;
+  -o-transition: ease 0.3s;
+  -ms-transition: ease 0.3s;
+  color: #000;
+}
+
+.custom-hover {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+.project-card:hover {
+  opacity: 1;
 }

@@ -27,6 +27,11 @@
     >
       <div class="cover-container">
         <main role="main" class="inner cover">
+          <img
+            src="./static/images/iydlogo-trans.png"
+            class="img-fluid logo"
+            alt=""
+          />
           <h1 class="cover-heading">Idrees Dargahwala</h1>
           <hr class="divide" />
           <h5>
@@ -42,32 +47,32 @@
           <ul class="clearfix">
             <li>
               <a href="#about-me">
-                <span class="light-yellow">About me</span>
+                <span>About me</span>
               </a>
             </li>
             <li>
               <a href="#education">
-                <span class="light-yellow">Education</span>
+                <span>Education</span>
               </a>
             </li>
             <li>
               <a href="#experience">
-                <span class="light-yellow">Experience</span>
+                <span>Experience</span>
               </a>
             </li>
             <li>
               <a href="#skills">
-                <span class="light-yellow">Skills</span>
+                <span>Skills</span>
               </a>
             </li>
             <li>
               <a href="">
-                <span class="light-yellow">Work</span>
+                <span>Work</span>
               </a>
             </li>
             <li>
               <a href="">
-                <span class="light-yellow">Contact</span>
+                <span>Contact</span>
               </a>
             </li>
           </ul>
@@ -77,14 +82,6 @@
     <main>
       <section id="about-me">
         <div class="container">
-          <!-- <div class="row">
-            <div class="col-md-12">
-              <div class="wrap-about-me">
-                <h2>About Me</h2>
-                <hr class="divider-secondary" />
-              </div>
-            </div>
-          </div> -->
           <div class="row">
             <div class="col-sm">
               <div class="wrap-about-img text-right">
@@ -122,7 +119,7 @@
                   <a
                     style="color: #000; text-decoration: underline;"
                     class="bold"
-                    href=""
+                    href="mailto:idrees.yd@gmail.com"
                     >email</a
                   >
                 </p>
@@ -222,7 +219,8 @@
                 </li>
                 <li>
                   <ion-icon name="caret-forward-outline"></ion-icon>Scaled the
-                  product to 1K+ downloads in just 2 weeks.
+                  product to <span class="bold">1K+ downloads</span> in just 2
+                  weeks.
                 </li>
                 <li>
                   <ion-icon name="caret-forward-outline"></ion-icon>Worked on
@@ -254,7 +252,8 @@
                 </li>
                 <li>
                   <ion-icon name="caret-forward-outline"></ion-icon>Built a
-                  pilot on changing the data models for better analytics.
+                  <span class="bold">pilot</span> on changing the data models
+                  for better analytics.
                 </li>
                 <li>
                   <ion-icon name="caret-forward-outline"></ion-icon>Introduced
@@ -279,34 +278,92 @@
         </div>
       </section>
       <section id="skills">
-        <div class="row">
-          <div class="col-sm-12 text-center">
-            <h2 class="bold">
-              <ion-icon name="construct-outline"></ion-icon>
-            </h2>
-            <h6
-              class="custom-font my-2 text-center text-uppercase bold"
-              style=""
-            >
-              <span class="dot"></span>
-              Javascript <span class="dot"></span> Node.js
-              <span class="dot"></span> React <span class="dot"></span> Redux
-              <span class="dot"></span> MongoDB <span class="dot"></span> AWS
-              <span class="dot"></span> Redis <span class="dot"></span> NGINX
-              <span class="dot"></span> Continuous integration & deployment
-              <span class="dot"></span> Go <span class="dot"></span>
-            </h6>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2 class="bold">
+                <ion-icon name="construct-outline"></ion-icon>
+              </h2>
+              <h6
+                class="custom-font my-2 text-center text-uppercase bold"
+                style=""
+              >
+                <span class="dot"></span>
+                Javascript <span class="dot"></span> Node.js
+                <span class="dot"></span> React <span class="dot"></span> Redux
+                <span class="dot"></span> MongoDB <span class="dot"></span> AWS
+                <span class="dot"></span> Redis <span class="dot"></span> NGINX
+                <span class="dot"></span> Continuous integration & deployment
+                <span class="dot"></span> Go <span class="dot"></span>
+              </h6>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="work">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <a class="w-100 h-100" href="#">
+                <img
+                  class="img-fluid"
+                  src="./static/images/helpflare.jpg"
+                  alt=""
+                />
+                <div class="project-card custom-font">
+                  <h5
+                    class="text-uppercase bold"
+                    style="letter-spacing: 1.5px;"
+                  >
+                    <span>🙌🏻</span><br />
+                    Help Flare
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm">
+              <a class="w-100 h-100" href="#">
+                <img
+                  class="img-fluid"
+                  src="./static/images/agrishare.png"
+                  alt=""
+                />
+                <div class="project-card custom-hover custom-font">
+                  <h5
+                    class="text-uppercase bold"
+                    style="letter-spacing: 1.5px;"
+                  >
+                    <span>🌾</span><br />
+                    Agrishare
+                  </h5>
+                </div>
+              </a>
+            </div>
+            <div class="col-sm">
+              <a class="w-100 h-100" href="#">
+                <img
+                  class="img-fluid"
+                  src="./static/images/pothole.jpg"
+                  alt=""
+                />
+                <div class="project-card custom-font">
+                  <h5
+                    class="text-uppercase bold"
+                    style="letter-spacing: 1.5px;"
+                  >
+                    <span>🚜</span><br />
+                    Pothole Go
+                  </h5>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
     <!-- JS, Popper.js, and jQuery -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
+    <script src="./static/js/jquery-1.10.2.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
       integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
@@ -317,5 +374,9 @@
       integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
       crossorigin="anonymous"
     ></script>
+    <script src="./static/js/jquery.sticky.js"></script>
+    <script src="./static/js/jquery.nav.js"></script>
+    <script src="./static/js/jquery.scrollto.min.js"></script>
+    <script src="./static/js/custom.js"></script>
   </body>
 </html>
