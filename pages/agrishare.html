@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="../static/css/page.css" />
+    <title>Help Flare</title>
+  </head>
+  <body>
+    <header></header>
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="../index.html#work"
+              ><ion-icon
+                style="font-size: 20px;"
+                name="arrow-back-outline"
+              ></ion-icon
+            ></a>
+            <h2 class="custom-font" style="font-weight: 700;">Agrishare</h2>
+            <p class="custom-font text-uppercase" style="color: #999;">
+              React | Node.js | MongoDB | AWS
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-sm-12">
+            <p>
+              This project was a problem statement listed by Smart India
+              Hackathon 2020.
+            </p>
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Statement
+            </h6>
+            <p>
+              A mobile application for sharing or pooling of transport for
+              agricultural produce to local markets.
+            </p>
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Idea Description
+            </h6>
+            <p>
+              The APMC markets are spread out in districts within a state, but
+              some farmers cannot afford to take their produce to distant
+              markets because of high transport costs. As a result, they often
+              sell their produce to a chain of middle men which results in
+              increase of prices. To solve the above mentioned problem, we came
+              up with an approach to make the task of transporting products
+              easier and at a lower cost.
+            </p>
+            <hr />
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Approach
+            </h6>
+            <ul style="padding: 0; list-style-type: none;">
+              <li>
+                - The agency creates routes for trucks and sets the departure
+                time of trucks available for pooling.
+              </li>
+              <li>
+                - A mobile application used by farmers then lists the trucks
+                travelling between inter-state markets which according to the
+                farmer’s requirements and location, can be pooled. Special goods
+                can be categorized into perishable goods like milk and fragile
+                goods like tomatoes.
+              </li>
+              <li>
+                - On the basis of the requirements of the farmers, the pickup
+                points of many farmers are added to the route of the truck and
+                goods are delivered at a cost lower than the market because the
+                same truck is shared. The list of closest journeys to the
+                farmer’s destination are shown by an algorithm which calculates
+                the distance between the farmer’s location and the path from the
+                farmer’s location to destination market
+              </li>
+              <li>
+                - Keeping in mind the diversity of our country, the application
+                is multi-language for the farmers
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="../static/images/agrishare-flow.png"
+              class="img-fluid"
+              style="border: 5px solid #000;"
+              alt=""
+            />
+            <img
+              src="../static/images/agrishare-hero.jpg"
+              class="img-fluid mt-4"
+              style="border: 5px solid #000;"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col-sm-12">
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Role
+            </h6>
+            <p>
+              The backend was created using Node.js, used to build APIs to post
+              data to the server. The
+              <span class="bold">challenging aspect</span> of this project was
+              to allot a truck to the nearby farmers on the original route. The
+              appropriate solution was to compute the distance between each
+              point on the route and the location coordinates of the farmer. If
+              the distance calculated was below a certain threshold, the farmer
+              would be alotted the truck &amp; the original path will re-route
+              itself with the help of Google Maps API.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <img
+              src="../static/images/agrishare-hackathon.jpg"
+              class="img-fluid"
+              style="max-width: 70%;"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col-sm-12">
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Achievements
+            </h6>
+            <p>
+              Although we did not get selected for Smart India Hackathon 2020,
+              we won the <span class="bold">1st prize</span> at
+              <span class="bold">Campus Hackathon</span> organized by my college
+              &amp; a <span class="bold">2nd prize</span> at
+              <span class="bold">HackStomp</span> organized by Universal
+              College, Mumbai.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-sm-12">
+            <button class="btn btn-dark btn-sm custom-font">Back</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
