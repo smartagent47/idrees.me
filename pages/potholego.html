@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <link rel="stylesheet" href="../static/css/page.css" />
+    <title>Pothole Go - Idrees Dargahwala</title>
+  </head>
+  <body>
+    <header></header>
+    <section id="content">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="../index.html#work"
+              ><ion-icon
+                style="font-size: 20px;"
+                name="arrow-back-outline"
+              ></ion-icon
+            ></a>
+            <h2 class="custom-font" style="font-weight: 700;">Pothole Go</h2>
+            <p class="custom-font text-uppercase" style="color: #999;">
+              Android | Python | Node.js
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-sm-12">
+            <p>
+              This project was a problem statement by Project Deep Blue Season 4
+              by Mastek Ltd.
+            </p>
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Statement
+            </h6>
+            <p>
+              A mobile application which predicts multiple potholes on a road
+              from a single image &amp; calculates parameters like length, width
+              and depth of it using the same image.
+            </p>
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Overview
+            </h6>
+            <p>
+              Citizen Service solutions enabling citizens not only report any
+              visible issues but also follow up those problems till proper
+              resolution. It started with reporting any problems around them and
+              share the images. Citizens can report these problems by clicking
+              and uploading photograph. Subsequent follow-ups will be with
+              clicking of clicking and uploading photographs.
+            </p>
+            <p>
+              Once those problems resolved by authorities then the same should
+              also be validated by Citizens themselves by taking photographs &
+              upload them. The system will identify weather it’s resolved or
+              not.
+            </p>
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Approach
+            </h6>
+            <p>
+              The user captures an image using the application which is stored
+              onto the server. This image is resized to 760x1280 pixels. We then
+              detect the pothole using a machine learning model that gives us
+              the position and approximate boundaries of the pothole. We then
+              use a known object such as a coin as a reference to measure the
+              approximate parameters of the pothole &amp; estimate its severity.
+            </p>
+          </div>
+        </div>
+        <div class="row my-4">
+          <div class="col-sm-12 text-center">
+            <img
+              src="../static/images/pothole-hero.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Role
+            </h6>
+            <p>
+              Since we did not have our client coupled up with the machine
+              learning model directly, we had to use a server in between. My
+              task here was to create a pipeline between the client i.e Android
+              and our model which was written in Python. Using Node.js, I built
+              the custom APIs which were exposed to the application for getting
+              the image. A child process was initiated to execute the model
+              &amp; passing the image. Using the same pipe, parameters
+              calculated were returned to the client.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <img
+              src="../static/images/pothole-presentation.png"
+              class="img-fluid"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="row mt-4 mb-2">
+          <div class="col-sm-12">
+            <h6
+              style="letter-spacing: 1.5px;"
+              class="custom-font text-uppercase bold"
+            >
+              Achievement
+            </h6>
+            <p>
+              A finalist among the <span class="bold">top 9 teams</span> from a
+              total of 67 teams.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="row">
+          <div class="col-sm-12">
+            <button class="btn btn-dark btn-sm custom-font">Back</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
