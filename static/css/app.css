@@ -156,6 +156,10 @@ nav {
 }
 /* End hide from IE5/Mac */
 
+.wrap-about-img {
+  text-align: right;
+}
+
 #about-me,
 #experience,
 #work {
@@ -256,4 +260,60 @@ nav {
 
 .project-card:hover {
   opacity: 1;
+}
+
+footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 50%;
+  }
+
+  .cover-heading {
+    font-size: 30px;
+  }
+
+  .subcover {
+    font-size: 18px;
+  }
+
+  nav {
+    font-size: 12px;
+  }
+
+  .mobile {
+    display: none !important;
+  }
+
+  .wrap-about-img {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  #education h4 {
+    font-size: 18px;
+  }
+
+  #education h6 {
+    font-size: 12px;
+  }
+
+  #education p {
+    font-size: 12px;
+  }
+
+  .intern {
+    height: auto;
+  }
+
+  #work .col-sm {
+    margin: 10px;
+  }
 }

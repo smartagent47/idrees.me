@@ -34,3 +34,23 @@ header {
 li {
   font-size: 18px;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    height: 10vh;
+  }
+
+  #content p,
+  li {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .container {
+    padding: 0 20px;
+  }
+
+  .sub {
+    font-size: 14px !important;
+  }
+}
