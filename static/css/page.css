@@ -16,8 +16,46 @@ body {
   max-width: 700px;
 }
 
+.headings {
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.ul-style {
+  padding: 0;
+  list-style-type: none;
+}
+
+.font-20 {
+  font-size: 20px;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+
 .bold {
   font-weight: 700;
+}
+
+.border-black {
+  border: 5px solid #000;
+}
+
+.color-000 {
+  color: #000;
+}
+
+.color-444 {
+  color: #444;
+}
+
+.color-999 {
+  color: #999;
+}
+
+.maxwidth-70 {
+  max-width: 70%;
 }
 
 header {
