@@ -257,32 +257,9 @@ nav {
   margin-bottom: 2px;
 }
 
-.project-card {
-  height: 100%;
-  width: 92.5%;
-  position: absolute;
-  text-align: center;
-  top: 0;
-  opacity: 0;
-  background: none repeat scroll 0 0 rgba(255, 234, 0, 0.7);
-  transition: ease 0.3s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  -webkit-transition: ease 0.3s;
-  -moz-transition: ease 0.3s;
-  -o-transition: ease 0.3s;
-  -ms-transition: ease 0.3s;
-  color: #000;
-}
-
 .custom-hover {
   background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
   color: #fff;
-}
-
-.project-card:hover {
-  opacity: 1;
 }
 
 footer {
