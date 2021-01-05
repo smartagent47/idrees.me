@@ -1,7 +1,0 @@
-User-agent: *
-Disallow: /pages/agrishare.html
-Disallow: /pages/helpflare.html
-Disallow: /pages/potholego.html
-Disallow: /static/images/
-Disallow: /static/css/
-Disallow: /static/js/
