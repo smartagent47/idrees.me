@@ -35,7 +35,6 @@ export default function About() {
             you are interested, you can view some good {''}
             <Link
               href="#work"
-              as="work"
               className={`${utilStyles.bold} ${utilStyles.underlineBlack}`}
             >
               <u>work</u>

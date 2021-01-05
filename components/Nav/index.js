@@ -10,9 +10,7 @@ export default function Nav({ items }) {
         <ul className={utilStyles.clearfix}>
           {items.map((item) => (
             <li className={!item.visible ? styles.mobile : null}>
-              <Link href={`#${item.href}`} as={item.href}>
-                {item.name}
-              </Link>
+              <Link href={`#${item.href}`}>{item.name}</Link>
             </li>
           ))}
         </ul>
