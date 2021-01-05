@@ -1,0 +1,52 @@
+#navStickyWrapper {
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.customNav {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+  font-size: 14px;
+  z-index: 100;
+}
+
+#nav ul {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+}
+
+#nav ul li {
+  padding: 0 8px;
+  line-height: 60px;
+  display: inline-block;
+  float: left;
+  text-transform: uppercase;
+}
+
+#navStickyWrapper.is-sticky #nav {
+  background-color: #000;
+}
+
+#nav ul li a {
+  color: #ffff8d;
+  text-decoration: none;
+}
+
+#nav ul li a:hover,
+#nav ul li.current a {
+  color: #fff !important;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile {
+    display: none !important;
+  }
+}
