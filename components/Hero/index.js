@@ -10,7 +10,7 @@ export default function Hero() {
       className={`d-flex w-100 justify-content-center align-items-center mx-auto flex-column ${styles.hero}`}
     >
       <div className={styles.coverContainer}>
-        <main role="main" class={`inner ${styles.cover}`}>
+        <main role="main" className={`inner ${styles.cover}`}>
           <Image
             src="/images/logo.png"
             width={500}

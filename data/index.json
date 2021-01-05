@@ -1,0 +1,38 @@
+{
+  "experience": [
+    {
+      "title": "Software Engineering Intern",
+      "content": [
+        "Built the infrastructure and architecture from scratch.",
+        "Scaled the product to 1K+ downloads in just 2 weeks.",
+        "Worked on caching, CRONS, notification and messaging features.",
+        "Migrated data from Firebase to MongoDB by writing aggregations."
+      ],
+      "name": "Linckup",
+      "date": "Apr 2020 - Jun 2020",
+      "image": {
+        "url": "/images/linckup.webp",
+        "altText": "linckup",
+        "width": 200,
+        "height": 200
+      }
+    },
+    {
+      "title": "Technology Intern",
+      "content": [
+        "Worked on the backend of the FirstSteps project.",
+        "Built a pilot on changing the data models for better analytics.",
+        "Introduced documentation and standard practices.",
+        "Wrote unit tests for a feature of the project."
+      ],
+      "name": "Teach for India",
+      "date": "Jun 2019 - Jul 2019",
+      "image": {
+        "url": "/images/teach-for-india.png",
+        "altText": "teach for india",
+        "width": 500,
+        "height": 150
+      }
+    }
+  ]
+}

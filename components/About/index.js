@@ -24,7 +24,7 @@ export default function About() {
       </div>
       <div className="col-sm">
         <div className={styles.aboutWrapText}>
-          <h6 class={utilStyles.customFont}>
+          <h6 className={utilStyles.customFont}>
             <span className={`${utilStyles.bold} ${utilStyles.headings}`}>
               Hey, it's me
             </span>
