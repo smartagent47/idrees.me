@@ -1,4 +1,6 @@
 import Image from 'next/image';
+import Nav from '../Nav';
+
 import styles from './Hero.module.css';
 import utilStyles from '../../styles/utils.module.css';
 
@@ -28,6 +30,40 @@ export default function Hero() {
           <span className={styles.emoji}>👋</span>
         </main>
       </div>
+      <Nav
+        items={[
+          {
+            name: 'About me',
+            href: 'about-me',
+            visible: true,
+          },
+          {
+            name: 'Education',
+            href: 'education',
+            visible: true,
+          },
+          {
+            name: 'Experience',
+            href: 'experience',
+            visible: true,
+          },
+          {
+            name: 'Skills',
+            href: 'skills',
+            visible: false,
+          },
+          {
+            name: 'Work',
+            href: 'work',
+            visible: true,
+          },
+          {
+            name: 'Contact',
+            href: 'contact',
+            visible: false,
+          },
+        ]}
+      />
     </header>
   );
 }

@@ -17,3 +17,25 @@
 .bold {
   font-weight: 700;
 }
+
+.clearfix:after {
+  content: '.';
+  display: block;
+  height: 0;
+  font-size: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  display: inline-block;
+}
+
+/* A.1 Hides from IE5/Mac \*/
+* html .clearfix {
+  height: 1px;
+}
+
+.clearfix {
+  display: block;
+}
