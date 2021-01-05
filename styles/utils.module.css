@@ -1,0 +1,19 @@
+.divide {
+  background: #ffea00;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  opacity: 1;
+}
+
+.yellow {
+  color: #ffea00;
+}
+
+.lightYellow {
+  color: #ffff8d;
+}
+
+.bold {
+  font-weight: 700;
+}

@@ -1,0 +1,27 @@
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)),
+    url('/images/hero.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+
+.coverContainer {
+  max-width: 42em;
+}
+
+.cover {
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.coverHeading {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.emoji {
+  font-size: 30px;
+}
