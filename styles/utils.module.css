@@ -1,5 +1,5 @@
 .customFont {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .divide {
@@ -43,6 +43,7 @@
   background-color: #ffea00;
   border-radius: 50%;
   display: inline-block;
+  margin-right: 5px;
 }
 
 .dotBlack {
@@ -64,7 +65,7 @@
 }
 
 .clearfix:after {
-  content: '.';
+  content: ".";
   display: block;
   height: 0;
   font-size: 0;
