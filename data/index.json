@@ -9,13 +9,7 @@
         "Migrated data from Firebase to MongoDB by writing aggregations."
       ],
       "name": "Linckup",
-      "date": "Apr 2020 - Jun 2020",
-      "image": {
-        "url": "/images/linckup.webp",
-        "altText": "linckup",
-        "width": 200,
-        "height": 200
-      }
+      "date": "Apr 2020 - Jun 2020"
     },
     {
       "title": "Technology Intern",
@@ -26,13 +20,8 @@
         "Wrote unit tests for a feature of the project."
       ],
       "name": "Teach for India",
-      "date": "Jun 2019 - Jul 2019",
-      "image": {
-        "url": "/images/teach-for-india.png",
-        "altText": "teach for india",
-        "width": 500,
-        "height": 150
-      }
+      "date": "Jun 2019 - Jul 2019"
     }
-  ]
+  ],
+  "skills": ["JavaScript", "React", "Node.js", "Redux", "MongoDB", "AWS", "CI/CD", "NGINX"]
 }

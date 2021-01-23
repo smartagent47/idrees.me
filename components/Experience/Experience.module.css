@@ -1,3 +1,7 @@
-.customSlider {
-  display: flex !important;
+.cards {
+  --gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.4375rem, 1fr));
+  grid-gap: var(--gap);
+  justify-content: space-between;
 }
