@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+p,
+a {
+  @apply text-gray-500 font-normal;
+}
+
+nav a {
+  @apply text-gray-400;
+}
+
+a.active {
+  @apply text-gray-500;
+}
+
+a:hover {
+  @apply text-gray-500;
+}
+
+.link:not(:last-child) {
+  @apply mr-4;
+}
+
+.images img {
+  @apply mb-4 rounded-lg drop-shadow-lg;
+}
+
+.projects a {
+  @apply rounded-lg w-full bg-slate-800 flex flex-col p-4;
+}
+
+.projects a > p {
+  @apply text-white;
+}
+
+.social a {
+  @apply underline-offset-2 text-base;
+}
+
+.social > a:not(:last-child) {
+  @apply mr-6;
+}

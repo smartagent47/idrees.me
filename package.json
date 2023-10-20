@@ -1,0 +1,19 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "scripts": {
+    "dev":"npx tailwindcss -i ./styles/index.css -o ./styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theIYD/theiyd.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theIYD/theiyd.github.io/issues"
+  },
+  "homepage": "https://github.com/theIYD/theiyd.github.io#readme"
+}
